@@ -7,7 +7,7 @@ function updateSecondInput() {
 //3 - Ar
 //4 - Порядковый номер
 
-        if (input1.value === '') {
+        if (input1.value === none) {
         input2.value = '';
         input3.value = '';
         input4.value = '';
@@ -718,5 +718,11 @@ function updateSecondInput() {
         input2.value = 'оганесон';
         input3.value = '≈294';
         input4.value = '118';
+    }
+
+    else {
+        input2.value = 'Введите правильно!';
+        input3.value = 'Введите правильно!';
+        input4.value = 'Введите правильно!';
     }
 }
