@@ -6,6 +6,13 @@ function updateSecondInput() {
 //2 - Название
 //3 - Ar
 //4 - Порядковый номер
+
+        if (input1.value === '') {
+        input2.value = '';
+        input3.value = '';
+        input4.value = '';
+    }
+    
     if (input1.value === 'H') {
         input2.value = 'Водород';
         input3.value = '≈1';
